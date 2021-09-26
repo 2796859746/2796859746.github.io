@@ -135,7 +135,7 @@
       
       <i class="fas fa-list" style="zoom: 0.6"></i>
       
-      <span>Medias</span>
+      <span>分享</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6"></i>
     </a>
     <ul class="sub-nav menus_item_child">
@@ -475,7 +475,7 @@
   <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
     <div class="brand">
       <div class="title center-align">
-         欢迎来到无影的博客 
+         浅夏晴空 
       </div>
 
       <div class="description center-align">
@@ -634,16 +634,72 @@
            <div class="dream">
     
     <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
+        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;人生格言
     </div>
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+            机遇总是有的，如果把握不住，不要怨天忧人，只因自己不够优秀；不要把时间当垃圾处理，唯有珍惜光阴，才能提升生命的质量；两点之间未必直线最短，有时迂回曲折能够更快地抵达终点；人一生，每一次真心的付出，换来的都可能是种伤害；每一次所谓的拥有，经常只是短暂的满足。
         </div>
     </div>
 </div>
+   <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
     
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="music-player">
+    
+        <div class="title center-align">
+            <i class="fas fa-music"></i>&nbsp;&nbsp;听听音乐
+        </div>
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="6964646956"
+                   fixed='false'
+                   autoplay='true'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+   
           <div id="recommend-sections" class="recommend">
 
 
@@ -662,23 +718,98 @@
       <!-- 隐藏某个文章 -->
       <div class="article col s12 m6 l4" data-aos="zoom-in">
         <div class="card">
-          <a href="/2021/09/18/hexo/">
+          <a href="/2021/09/25/java-notes/">
             <div class="card-image">
                
               <img
-                src="/medias/featureimages/7.jpg"
+                src="/medias/featureimages/12.jpg"
                 class="responsive-img"
-                alt="关于hexo"
+                alt="Java课堂学习笔记"
               />
               
-              <span class="card-title">关于hexo</span>
+              <span class="card-title">Java课堂学习笔记</span>
             </div>
           </a>
 
           <div class="card-content article-content">
             <div class="summary block-with-text">
-               一、了解 hexo1.1 什么是 hexo？hexo 是使用 nodejs 开发的一个快速、简洁、高效、开源的静态博客生成器。
-1.2 hexo 如何解析文章？hexo 使用 Markdown 解析文章，因此，文章需采用 Markdown  
+               9 月 25 日-JavaJava 术语
+Frontend：前端
+
+Backend：后端
+
+DecOps：运维
+
+React：React 开发
+
+SysAdmin：系统管理
+
+Android：安卓
+
+DBA：数据库管理
+
+AWS：云平台
+
+ 
+            </div>
+            <div class="publish-info">
+              <span class="publish-date">
+                <i class="far fa-clock fa-fw icon-date"></i>2021-09-25
+              </span>
+              <span class="publish-author">
+                
+                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                
+                <a href="/categories/Java/" class="post-category"> Java </a>
+                 
+              </span>
+            </div>
+          </div>
+
+          
+          <div class="card-action article-tags">
+            
+            <a href="/tags/java/">
+              <span class="chip bg-color">java</span>
+            </a>
+            
+            <a href="/tags/%E5%AD%A6%E4%B9%A0/">
+              <span class="chip bg-color">学习</span>
+            </a>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- 隐藏某个文章 -->
+       
+      <!-- 隐藏某个文章 -->
+      <div class="article col s12 m6 l4" data-aos="zoom-in">
+        <div class="card">
+          <a href="/2021/09/18/hexo/">
+            <div class="card-image">
+               
+              <img
+                src="/medias/featureimages/23.jpg"
+                class="responsive-img"
+                alt="hexo+github搭建博客"
+              />
+              
+              <span class="card-title">hexo+github搭建博客</span>
+            </div>
+          </a>
+
+          <div class="card-content article-content">
+            <div class="summary block-with-text">
+               前言GitHub page 提供了免费的服务搭建
+
+免费域名 xxx.github.io xxx 是你的 github 用户名
+免费的代码存储空间
+全是静态文件，快速访问
+git 版本管理，能快速回滚或者切换的某个版本
+
+准备工作注册 Gi 
             </div>
             <div class="publish-info">
               <span class="publish-date">
@@ -686,12 +817,80 @@
               </span>
               <span class="publish-author">
                 
-                <i class="fas fa-user fa-fw"></i>
-                无影 
+                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                
+                <a href="/categories/hexo/" class="post-category"> hexo </a>
+                 
               </span>
             </div>
           </div>
 
+          
+          <div class="card-action article-tags">
+            
+            <a href="/tags/hexo/">
+              <span class="chip bg-color">hexo</span>
+            </a>
+            
+            <a href="/tags/github/">
+              <span class="chip bg-color">github</span>
+            </a>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- 隐藏某个文章 -->
+       
+      <!-- 隐藏某个文章 -->
+      <div class="article col s12 m6 l4" data-aos="zoom-in">
+        <div class="card">
+          <a href="/2021/09/18/js-basic/">
+            <div class="card-image">
+               
+              <img
+                src="/medias/featureimages/10.jpg"
+                class="responsive-img"
+                alt="JS基础面试题"
+              />
+              
+              <span class="card-title">JS基础面试题</span>
+            </div>
+          </a>
+
+          <div class="card-content article-content">
+            <div class="summary block-with-text">
+               （2）问：0.1 + 0.2 === 0.3 嘛？为什么？JavaScirpt 使用 Number 类型来表示数字（整数或浮点数），遵循 IEEE 754 标准，通过 64 位来表示一个数字（1 + 11 + 52）
+
+1 符号位，0 表示 
+            </div>
+            <div class="publish-info">
+              <span class="publish-date">
+                <i class="far fa-clock fa-fw icon-date"></i>2021-09-18
+              </span>
+              <span class="publish-author">
+                
+                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                
+                <a href="/categories/JavaScript/" class="post-category"> JavaScript </a>
+                 
+              </span>
+            </div>
+          </div>
+
+          
+          <div class="card-action article-tags">
+            
+            <a href="/tags/JavaScript/">
+              <span class="chip bg-color">JavaScript</span>
+            </a>
+            
+            <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">
+              <span class="chip bg-color">面试题</span>
+            </a>
+            
+          </div>
           
         </div>
       </div>
@@ -727,8 +926,10 @@
               </span>
               <span class="publish-author">
                 
-                <i class="fas fa-user fa-fw"></i>
-                无影 
+                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                
+                <a href="/categories/%E5%B7%A5%E5%85%B7%E7%B1%BB/" class="post-category"> 工具类 </a>
+                 
               </span>
             </div>
           </div>
@@ -791,99 +992,44 @@
 
 
  <footer class="page-footer bg-color">
-    
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
+  
 
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
+  <div
+    class="container row center-align"
+    style="margin-bottom: 0px !important;"
+  >
+    <div class="col s12 m8 l8 copy-right">
+      <span id="sitetime"></span><br />
+      Copyright&nbsp;&copy; 
+      <span id="year">2019-2021</span>
+      
+      <span id="year">2019</span>
+      <a href="/about" target="_blank">无影</a>
+      |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a> |&nbsp;Theme&nbsp;<a
+        href="https://github.com/blinkfox/hexo-theme-matery"
+        target="_blank"
+        >Matery</a
+      >
+      <br />
+           
+      <span id="busuanzi_container_site_pv">
+        &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+        <span id="busuanzi_value_site_pv" class="white-color"></span>
+      </span>
+       
+      <span id="busuanzi_container_site_uv">
+        &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+        <span id="busuanzi_value_site_uv" class="white-color"></span>
+      </span>
+      
+      <br />
 
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
+      <!-- 运行天数提醒. -->
+      
+      <br />
+      
     </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-    
-
-    <div class="container row center-align"
-         style="margin-bottom: 0px !important;">
-        <div class="col s12 m8 l8 copy-right">
-            Copyright&nbsp;&copy;
-            
-                <span id="year">2019-2021</span>
-            
-            <span id="year">2019</span>
-            <a href="/about" target="_blank">无影</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
-            <br>
-            
-            
-            
-                
-            
-            
-                <span id="busuanzi_container_site_pv">
-                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
-                    <span id="busuanzi_value_site_pv" class="white-color"></span>
-            </span>
-            
-            
-                <span id="busuanzi_container_site_uv">
-                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
-                    <span id="busuanzi_value_site_uv" class="white-color"></span>
-            </span>
-            
-            <br>
-
-            <!-- 运行天数提醒. -->
-            
-            <br>
-            
-        </div>
-        <div class="col s12 m4 l4 social-link social-statis">
+    <div class="col s12 m4 l4 social-link social-statis">
     <a href="https://github.com/2796859746" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
@@ -915,10 +1061,50 @@
     </a>
 
 </div>
-    </div>
+  </div>
 </footer>
 
 <div class="progress-bar"></div>
+<script language="javascript">
+  function siteTime() {
+    window.setTimeout('siteTime()', 1000)
+    var seconds = 1000
+    var minutes = seconds * 60
+    var hours = minutes * 60
+    var days = hours * 24
+    var years = days * 365
+    var today = new Date()
+    var todayYear = today.getFullYear()
+    var todayMonth = today.getMonth() + 1
+    var todayDate = today.getDate()
+    var todayHour = today.getHours()
+    var todayMinute = today.getMinutes()
+    var todaySecond = today.getSeconds()
+    var t1 = Date.UTC(2018, 08, 11, 00, 00, 00) //北京时间2018-2-13 00:00:00
+    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
+    var diff = t2 - t1
+    var diffYears = Math.floor(diff / years)
+    var diffDays = Math.floor(diff / days - diffYears * 365)
+    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours)
+    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
+    var diffSeconds = Math.floor(
+      (diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds
+    )
+    document.getElementById('sitetime').innerHTML =
+      '本站已运行 ' +
+      diffYears +
+      ' 年 ' +
+      diffDays +
+      ' 天 ' +
+      diffHours +
+      ' 小时 ' +
+      diffMinutes +
+      ' 分钟 ' +
+      diffSeconds +
+      ' 秒'
+  }
+  siteTime()
+</script>
  <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
     <div class="modal-content">
@@ -1079,5 +1265,5 @@ $(function () {
      
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-  </body>
+  <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true,"react":{"opacity":0.7}}});</script></body>
 </html>

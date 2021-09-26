@@ -2159,3 +2159,26 @@ p.search-result-summary {
   line-height: 48px;
   font-size: 1.8rem;
 }
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+  background-color: #ff2a68;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffcacaff;
+  border-radius: 3em;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 15px;
+}
